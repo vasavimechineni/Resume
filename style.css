@@ -1,0 +1,17 @@
+.MAIN{
+	width:100%;
+	background-color: #c45e45;
+	display:flex;
+}
+.Left{
+	width=70%;
+	border:3px solid #2df;
+}
+.Right{
+	width=30%;
+	border:3px solid #00f;
+
+}
+img{
+	width=300px;
+}
