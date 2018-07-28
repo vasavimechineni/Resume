@@ -1,17 +1,80 @@
 .MAIN{
 	width:100%;
-	background-color: #c45e45;
+	background-color: #FFF0F5;
 	display:flex;
+	justify-content: center;
 }
-.Left{
-	width=70%;
+.left{
+	width:30%;
 	border:3px solid #2df;
+	box-shadow: 3px 3px 3px white;
+	margin : 1px;
+	padding : 1%;
+	text-align: center;
+	
+	background-color: #FFFACD;
+	flex-wrap: wrap;
+	flex-direction: column-reverse;
+
 }
-.Right{
-	width=30%;
-	border:3px solid #00f;
+.right{
+	width:65%;
+	border:2px solid #00f;
+	box-shadow: 3px 3px 3px #2df;
+	margin : 1px;
+	padding : 1%;
+	background-color:  #FFFACD;
 
 }
 img{
 	width=300px;
+	border-style: double;
+	border-radius: 10px solid #000;
+}
+h1,
+h2,
+h3{
+	font-size: 33px;
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+	.MAIN{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column-reverse;
+	
+}
+.left{
+  background-color: #666;	
+
+}
+.right{
+	 background-color: #666;	
+	
+
+}
+
+	/*.MAIN{
+		display: flex;
+		flex-wrap:wrap;
+		flex-direction: column-reverse;
+	}
+	.Left{
+		width: 95%
+	}*/
+}
+	@media only screen and (max-width: 1024px){
+		.MAIN
+		{
+		display: flex;
+		flex-direction:column;
+	}
+	}
+
+.sset table,tr,td{
+	border: 2px solid #000;
+	border-collapse: collapse;
+
+}
+table{
+	margin-left: 75px;
 }

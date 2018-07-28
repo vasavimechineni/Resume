@@ -1,0 +1,43 @@
+{
+	"details":{
+		"name":"vasavi",
+		"image":"pic.png",
+		"phone":"9010444790",
+		"email":"mechinenivasavi@gmail.com"
+	},
+	"education":[
+		{
+			"course":"B.Tech(CSE)",
+			"college":"MIC college of Technology",
+			"percentage":"80%"
+		},
+		{
+			"course":"Intermediate(MPC)",
+			"college":"Narayana Junior College",
+			"percentage":"90%"
+		},
+		{
+			"course":"SSC",
+			"college":"St Ann's EM School",
+			"percentage":"88%"
+		}
+		
+	],
+	"skills":[
+		{
+		"title":"Programming Languages",
+		"output":[
+			"c","c++","java","python"
+		]
+	    },
+	    {
+	    	"title":"Operating Systems",
+	    	"output":[
+              "windows","Linux","MAC"
+	    	]
+	    }
+    ],
+    "career":{
+    	"co":"To associate with Organization and utilize my technical skills to the growth of your company"
+    }
+} 
